@@ -1,0 +1,168 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.bg{
+    height: 100vh;
+    background-image: url(image/boo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.navbar{
+    background: #440202;
+    font-family: calibri;
+    padding-right: 15px;
+    padding-right: 15px;
+    transition: 0.5s;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+    text-shadow: black;
+    padding-left: 10px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+} 
+button{
+     background-color: black;
+    margin-left: 10px ;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+     
+} 
+button a  {
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px; 
+} 
+.container{
+    align-items: center;
+    padding-top: 3%;
+    padding-left: 20%;
+    position: relative;
+}
+.container h3{
+    position: absolute;
+    color: #fff;
+    padding-left: 12%;
+    font-size: 2em;
+    padding-top: 5%;
+}
+.content{
+    padding-top: 15%;
+    padding-left: 0.5%;
+    align-items: last baseline;
+}
+ p{
+    position: absolute;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-weight: 0%;
+    word-spacing: 50%;
+    color: #fff;
+}
+.container h2{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    font-size: 8em;
+   
+}
+.container h2:nth-child(1){
+    color: transparent;
+    -webkit-text-stroke: 2px #fff;
+}
+.container h2:nth-child(2){
+    color: #fff;
+    -webkit-text-stroke: 2px #fff;
+    animation: animate 4s ease-in-out infinite;
+}
+@keyframes animate{
+    0%,100%{
+       clip-path: polygon(0% 45%, 15% 44%, 32% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
+    }
+    50%{
+        clip-path: polygon(0 60%, 16% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
+    }
+}
+.content h2 {
+    position: absolute;
+    padding-bottom: 70%; 
+    padding-top: 7%;
+    padding-left: 10%;
+    padding-right: 20%;
+    color: #fff;
+    font-weight: bold;
+}
+.content h2 a{
+    border: 1px solid #440202;
+    background: #440202;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+}
+.content h2 a:hover{
+    background: #fff;
+    border: 1px solid #fff;
+    color: #440202;
+    text-decoration: none;
+    border-radius: 6px;
+}
+.footer{
+    padding-top: 8%;
+} 
+.social{
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+.social a{
+    padding: 10px;
+    text-decoration: none;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 50%;
+}
+.social a i{
+    color: black;
+    opacity: 0.9;
+}
+.social a:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+.social a:hover i{
+    background-color: white;
+    transition: 0.5s;
+}
+.bottom{
+    justify-content: center;
+    text-align: center;
+    padding-left: 30%;
+    padding-top: 0%;
+}
+.designer{
+    opacity: 0.6;
+    text-transform: uppercase;
+}
+
